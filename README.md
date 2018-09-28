@@ -11,7 +11,7 @@
 * Go to the project directory (in where your `Dockerfile` is, containing your `app` directory)
 * Build your Flask image:
 
-docker build -t test:testing .
+```docker build -t test:testing .```
 
 
 * Run a container based on your image:
