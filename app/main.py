@@ -21,4 +21,4 @@ def get_header():
   return jsonify(default)
 
 if __name__ == '__main__':
-  app.run(debug=True, host='0.0.0.0', port=5200)
+  app.run(debug=True, host='0.0.0.0', port=80)
