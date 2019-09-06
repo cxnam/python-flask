@@ -28,3 +28,8 @@ docker run -d --name test-cont -p 80:80 test:testing
 curl http://localhost
 {"Accept":"*/*","Client IP":"172.17.0.1","Host":"localhost","User-Agent":"curl/7.61.1"}
 ```
+
+## Docker image
+```
+docker pull namcx/python-flask
+```
